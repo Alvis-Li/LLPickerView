@@ -13,7 +13,7 @@
 		1C9E49621C57257400ACB60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E49601C57257400ACB60E /* Main.storyboard */; };
 		1C9E49641C57257400ACB60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E49631C57257400ACB60E /* Assets.xcassets */; };
 		1C9E49671C57257400ACB60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E49651C57257400ACB60E /* LaunchScreen.storyboard */; };
-		1C9E49711C57258100ACB60E /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E496F1C57258100ACB60E /* AKPickerView.m */; };
+		1C9E49751C5726E500ACB60E /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E49741C5726E500ACB60E /* AKPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		1C9E49631C57257400ACB60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C9E49661C57257400ACB60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C9E49681C57257400ACB60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C9E496E1C57258100ACB60E /* AKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
-		1C9E496F1C57258100ACB60E /* AKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickerView.m; sourceTree = "<group>"; };
+		1C9E49731C5726E500ACB60E /* AKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		1C9E49741C5726E500ACB60E /* AKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		1C9E49561C57257400ACB60E /* LLPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				1C9E49701C57258100ACB60E /* AKPickerView */,
+				1C9E49721C5726E500ACB60E /* AKPickerView */,
 				1C9E495A1C57257400ACB60E /* AppDelegate.h */,
 				1C9E495B1C57257400ACB60E /* AppDelegate.m */,
 				1C9E495D1C57257400ACB60E /* ViewController.h */,
@@ -83,14 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1C9E49701C57258100ACB60E /* AKPickerView */ = {
+		1C9E49721C5726E500ACB60E /* AKPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				1C9E496E1C57258100ACB60E /* AKPickerView.h */,
-				1C9E496F1C57258100ACB60E /* AKPickerView.m */,
+				1C9E49731C5726E500ACB60E /* AKPickerView.h */,
+				1C9E49741C5726E500ACB60E /* AKPickerView.m */,
 			);
-			name = AKPickerView;
-			path = "../../AKPickerView-0.2.7/AKPickerViewSample/AKPickerView";
+			path = AKPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +164,7 @@
 			files = (
 				1C9E495F1C57257400ACB60E /* ViewController.m in Sources */,
 				1C9E495C1C57257400ACB60E /* AppDelegate.m in Sources */,
-				1C9E49711C57258100ACB60E /* AKPickerView.m in Sources */,
+				1C9E49751C5726E500ACB60E /* AKPickerView.m in Sources */,
 				1C9E49591C57257400ACB60E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +314,7 @@
 				1C9E496D1C57257400ACB60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
